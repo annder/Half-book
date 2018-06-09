@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NodeList.cpp">
+    <ClCompile Include="main.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeList.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="operat_struct.cpp">
       <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
