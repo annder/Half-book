@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="height_qualitity_pointer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NodeList.h" />
     <ClCompile Include="operat_struct.cpp" />

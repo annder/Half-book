@@ -24,5 +24,8 @@
     <ClCompile Include="operat_struct.cpp">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="height_qualitity_pointer.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
