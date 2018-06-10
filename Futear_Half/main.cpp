@@ -6,10 +6,11 @@ extern int compare_value(void const *a,void const *b);
 
 
 
-int main() {
-	const char *str = "string" + 1;
-	const char *str_ = "string" - 1;
-	char string_ = *"styrin";
-	printf("%s\n", str_);
-	printf("%s\n", str);
+int main()
+{
+	int io[3] = { 1 };
+	for (auto &element : io)
+	{
+		printf("%d",element);
+	}
 };
