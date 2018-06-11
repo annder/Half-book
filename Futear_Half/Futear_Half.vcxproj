@@ -144,6 +144,9 @@
     <ClCompile Include="NodeList.h" />
     <ClCompile Include="operat_struct.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Func_Strue.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

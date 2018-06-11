@@ -8,9 +8,7 @@ extern int compare_value(void const *a,void const *b);
 
 int main()
 {
-	int io[3] = { 1 };
-	for (auto &element : io)
-	{
-		printf("%d",element);
-	}
+	char *io = "a";
+	char f = io[0];
+	printf("%d", f);
 };
