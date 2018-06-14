@@ -27,6 +27,12 @@
     <ClCompile Include="height_qualitity_pointer.cpp">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="type.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="marico.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Func_Strue.h">

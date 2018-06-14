@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include "NodeList.h";
+#include "NodeList.h"
 #include <stdlib.h>
 #include <ctype.h>
 #include <string>
-#include "Func_Strue.h";
+#include "Func_Strue.h"
 
 int f(int) {
 	return 1;
@@ -134,11 +134,11 @@ void avgage(std::string value) {
 	int LowwerCase_String = isLowwerCase_String(value);
 	int Symbol_String = isSymbol_String(value);
 	int String_Lenght = value.length();
-	printf("Controal Strning:%f", String_Lenght / Control_String);
-	printf("White_String:%f", String_Lenght / White_String);
-	printf("Upper_Case:%f", String_Lenght / UpperCase_String);
-	printf("Lowwer_Case:%f", String_Lenght / LowwerCase_String);
-	printf("Symob_String: %f", String_Lenght / Symbol_String);
+	printf("Controal Strning:%d", String_Lenght / Control_String);
+	printf("White_String:%d", String_Lenght / White_String);
+	printf("Upper_Case: %d", String_Lenght / UpperCase_String);
+	printf("Lowwer_Case: %d", String_Lenght / LowwerCase_String);
+	printf("Symob_String: %d", String_Lenght / Symbol_String);
 };
 
 void traverse_node_link(func_struct *frist_point,func_struct (*operate)(func_struct *current_node)) {
@@ -159,42 +159,5 @@ void(*transform_table[])(func_struct *list,int value) = {delete_trans};
 
 ///////////////
 
-int toASCII(void *io) {
-	char *value;
-	if (iscntrl((int)io)) {
-	 value = (char *)io;
-	};
-	if (sizeof(io)) {
-		return (int)(io);
-	}
-	if (isalnum((int)io)) {
-		return (int)io + 48;
-	}
-	return (int)value[0];
-};
 
-void compare_(void *compare_value, void *compare_) {
-	int _value_a = toASCII(compare_value),
-		_value_b = toASCII(compare_);
-	int temp;
-	if (_value_a < _value_b) {
-		temp = _value_a;
-		_value_a = _value_b;
-		_value_b = temp;
-	};
-		
-};
 
-void Any_sort(void *array_pointer,int array_len, int array_element_len, void (*compare_func)(void *compare_value,void *compare__)) {
-	int *pointer_int;
-	char *pointer_char;
-	if (isalnum((int)array_pointer)) {
-		pointer_int = (int*)array_pointer;
-	};
-	if (iscntrl((int)array_pointer)) {
-		pointer_char = (char *)array_pointer;
-	};
-	// compare_should_transform
-
-	compare_func(pointer_char,pointer_char+1);
-};
