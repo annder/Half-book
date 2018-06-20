@@ -139,9 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cpu_type.h" />
     <ClCompile Include="height_qualitity_pointer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="marico.cpp" />
+    <ClCompile Include="marico_work.cpp" />
     <ClCompile Include="NodeList.h" />
     <ClCompile Include="operat_struct.cpp" />
     <ClCompile Include="type.cpp" />

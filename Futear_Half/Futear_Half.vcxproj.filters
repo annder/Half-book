@@ -33,6 +33,12 @@
     <ClCompile Include="marico.cpp">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="marico_work.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu_type.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Func_Strue.h">
