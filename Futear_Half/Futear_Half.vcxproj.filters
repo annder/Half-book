@@ -39,6 +39,12 @@
     <ClCompile Include="cpu_type.h">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="io_class.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Func_Strue.h">

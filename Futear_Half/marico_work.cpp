@@ -16,7 +16,7 @@ void print_ledger(int value) {
 
 /////////////////
 
-char *cpu_type() {
+void cpu_type() {
 #ifdef VAX
 		return CPU_VAX;
 #endif // VAX
