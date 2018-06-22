@@ -153,6 +153,12 @@
   <ItemGroup>
     <ClInclude Include="Func_Strue.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="a.txt" />
+    <Text Include="b.txt" />
+    <Text Include="c.txt" />
+    <Text Include="remove_file.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
