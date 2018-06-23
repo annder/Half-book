@@ -10,10 +10,11 @@ extern void rename_file(char *file_name, char *change_name);
 extern void copyline(FILE *input, FILE *output);
 extern char *get_string_file(FILE* filename);
 
+
 int main() {
-	char o[12];
-	FILE *fp = fopen("c.txt","w+");
-	fscanf(fp, "%s", o);
-	printf("%d\n", o);
-	fclose(fp);
+	FILE *a = fopen("c.txt", "r+");
+	fseek(a, 2, 0);
+	fflush(a);
+	fputc('a',a);
+
 };

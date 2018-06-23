@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
+
 
 char print_line() {
 	FILE *fp = fopen("hello.txt", "r");
@@ -68,3 +70,14 @@ char *get_string_file(FILE* filename) {
 	return result;
 };
 
+void opreate_file(char *filename,char *mode) {
+	FILE *fp = fopen(filename,"r");
+	if (strcmp(mode, "flush")) {
+		fflush(fp);
+		exit(0);
+	}
+	if (strcmp(mode, "tell")) {
+		ftell(fp);
+		exit(0);
+	}
+}

@@ -45,6 +45,9 @@
     <ClCompile Include="file.cpp">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="print.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Func_Strue.h">
