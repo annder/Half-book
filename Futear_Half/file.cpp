@@ -79,5 +79,20 @@ void opreate_file(char *filename,char *mode) {
 	if (strcmp(mode, "tell")) {
 		ftell(fp);
 		exit(0);
-	}
+	};
+	rewind(fp);
+	fclose(fp);
+}
+
+void store_buffer(char *filename) {
+	char *store = new char[1024];
+	FILE *fp = fopen(filename, "w");
+	setbuf(fp,store);
+	fflush(fp);
+	fclose(fp);
+};
+
+void create_temp_file() {
+	FILE *fp = tmpfile();
+	tmpnam("h");
 }

@@ -142,6 +142,7 @@
     <ClCompile Include="cpu_type.h" />
     <ClCompile Include="file.cpp" />
     <ClCompile Include="height_qualitity_pointer.cpp" />
+    <ClCompile Include="input_test.cpp" />
     <ClCompile Include="io_class.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="marico.cpp" />
